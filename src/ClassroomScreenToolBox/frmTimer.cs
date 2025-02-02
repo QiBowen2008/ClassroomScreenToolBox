@@ -106,6 +106,7 @@ namespace ClassroomScreenToolBox
                 e.Handled = true;
             }
         }
+
         private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
         {
 
@@ -118,6 +119,7 @@ namespace ClassroomScreenToolBox
                 e.Handled = true;
             }
         }
+
         private void ucExt8_Click(object sender, EventArgs e)
         {
             if (timerstate == false)
@@ -279,7 +281,7 @@ namespace ClassroomScreenToolBox
                 control.Left = (int)(control.Left * scaleFactor);
                 control.Top = (int)(control.Top * scaleFactor);
                 control.Font = new Font(control.Font.FontFamily, control.Font.SizeInPoints  * scaleFactor, control.Font.Style);
-                if (control is UITabControl tabControl)
+                if (control is Sunny .UI .UITabControl tabControl)
                 {
                     // 遍历TabControl中的所有TabPage
                     foreach (TabPage tabPage in tabControl.TabPages)
