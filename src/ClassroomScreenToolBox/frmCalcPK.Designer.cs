@@ -82,7 +82,7 @@ namespace ClassroomScreenToolBox
             this.label4.Font = new System.Drawing.Font("宋体", 25.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(439, 200);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 69);
+            this.label4.Size = new System.Drawing.Size(50, 69);
             this.label4.TabIndex = 9;
             this.label4.Text = "=";
             // 
@@ -91,7 +91,7 @@ namespace ClassroomScreenToolBox
             this.label3.Font = new System.Drawing.Font("宋体", 25.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(266, 200);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(240, 69);
+            this.label3.Size = new System.Drawing.Size(167, 69);
             this.label3.TabIndex = 8;
             this.label3.Text = "label3";
             // 

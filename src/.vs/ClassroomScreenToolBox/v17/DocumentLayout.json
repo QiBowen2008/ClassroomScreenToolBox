@@ -3,35 +3,39 @@
   "WorkspaceRootPath": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\classroomscreentoolbox\\frmset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmcalcpk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmcalcpk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmcalcpk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmcalcpk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmencouragewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmencouragewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\classroomscreentoolbox\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\classroomscreentoolbox\\frmcalcpk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmcalcpk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\classroomscreentoolbox\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\classroomscreentoolbox\\frmset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\classroomscreentoolbox\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|d:\\personalfile\\desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\classroomscreentoolbox\\src\\classroomscreentoolbox\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\classroomscreentoolbox\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F661F4CE-AF8D-4D8C-9460-1BB60539EA1E}|ClassroomScreenToolBox\\ClassroomScreenToolBox.csproj|solutionrelative:classroomscreentoolbox\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +70,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "frmEncourageWall.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmEncourageWall.cs",
+              "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmEncourageWall.cs",
+              "ToolTip": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmEncourageWall.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "ClassroomScreenToolBox\\frmEncourageWall.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T03:45:29.31Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "frmSet.cs",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmSet.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmSet.cs",
               "ToolTip": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmSet.cs",
               "RelativeToolTip": "ClassroomScreenToolBox\\frmSet.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvy0AAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T03:28:47.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "frmCalcPK.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmCalcPK.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmCalcPK.cs",
@@ -91,32 +107,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "frmTimer.cs",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmTimer.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmTimer.cs",
               "ToolTip": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmTimer.cs",
               "RelativeToolTip": "ClassroomScreenToolBox\\frmTimer.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAHcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAABEBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T14:07:49.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T14:07:49.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmTimer.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmTimer.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmTimer.cs",
               "ToolTip": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmTimer.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "ClassroomScreenToolBox\\frmTimer.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T14:07:43.476Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-02-01T14:07:43.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "frmCalcPK.cs",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmCalcPK.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmCalcPK.cs",
@@ -124,12 +138,11 @@
               "RelativeToolTip": "ClassroomScreenToolBox\\frmCalcPK.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAlwCoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T02:34:39.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T02:34:39.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "frmSet.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmSet.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmSet.cs",
@@ -141,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "frmMain.cs",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmMain.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmMain.cs",
@@ -149,20 +162,18 @@
               "RelativeToolTip": "ClassroomScreenToolBox\\frmMain.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAlwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T14:07:04.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T14:07:04.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "frmMain.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmMain.cs",
               "RelativeDocumentMoniker": "ClassroomScreenToolBox\\frmMain.cs",
               "ToolTip": "D:\\PersonalFile\\Desktop\\\u8F6F\u4EF6\u5F00\u53D1\\\u4ED3\u5E93\\ClassroomScreenToolbox\\src\\ClassroomScreenToolBox\\frmMain.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "ClassroomScreenToolBox\\frmMain.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T14:07:03.246Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-02-01T14:07:03.246Z"
             }
           ]
         },

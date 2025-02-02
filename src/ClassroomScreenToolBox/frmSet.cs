@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace ClassroomScreenToolBox
 {
-    public partial class frmSet : Sunny.UI.UIForm2
+    public partial class frmSet : UIForm2
     {
         public frmSet()
         {
@@ -32,7 +32,7 @@ namespace ClassroomScreenToolBox
                 control.Left = (int)(control.Left * scaleFactor);
                 control.Top = (int)(control.Top * scaleFactor);
                 control.Font = new Font(control.Font.FontFamily, control.Font.SizeInPoints  * scaleFactor, control.Font.Style);
-                if (control is Sunny.UI.UITabControl tabControl)
+                if (control is UITabControl tabControl)
                 {
                     // 遍历TabControl中的所有TabPage
                     foreach (TabPage tabPage in tabControl.TabPages)

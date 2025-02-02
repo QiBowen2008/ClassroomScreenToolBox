@@ -198,6 +198,7 @@
     <None Include="config.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="LICENSE" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\ClassroomScreenToolBox.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">
@@ -209,6 +210,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ico.ico" />
