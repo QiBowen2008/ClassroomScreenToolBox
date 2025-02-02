@@ -1,10 +1,13 @@
 ﻿using System;
 using Microsoft.WindowsAPICodePack.Taskbar;
 using System.Windows.Forms;
+using System.Drawing;
+using Sunny.UI;
+using OfficeOpenXml;
+using System.IO;
 
 namespace ClassroomScreenToolBox
 {
-
     public partial class frmTimer : Sunny.UI.UIForm2
     {
         private TaskbarManager windowsTaskbar = TaskbarManager.Instance;
@@ -18,7 +21,6 @@ namespace ClassroomScreenToolBox
         {
             InitializeComponent();
         }
-
         private void ucExt1_Click(object sender, EventArgs e)
         {
             if (timerstate == false)
@@ -31,7 +33,6 @@ namespace ClassroomScreenToolBox
                 }
             }
         }
-
         private void ucExt2_Click(object sender, EventArgs e)
         {
             if (timerstate == false)
@@ -44,7 +45,6 @@ namespace ClassroomScreenToolBox
                 }
             }
         }
-
         private void ucExt3_Click(object sender, EventArgs e)
         {
             if (timerstate == false)
@@ -106,8 +106,6 @@ namespace ClassroomScreenToolBox
                 e.Handled = true;
             }
         }
-
-
         private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
         {
 
@@ -120,7 +118,6 @@ namespace ClassroomScreenToolBox
                 e.Handled = true;
             }
         }
-
         private void ucExt8_Click(object sender, EventArgs e)
         {
             if (timerstate == false)
@@ -192,7 +189,6 @@ namespace ClassroomScreenToolBox
         private bool isRunning = false; // 记录秒表是否正在运行
         private void Tick(object sender, EventArgs e)
         {
-
             elapsedTime = DateTime.Now - startTime;
             // 更新 Label 显示
             lblTimer.Text = elapsedTime.ToString(@"hh\:mm\:ss\.ff");
@@ -268,7 +264,91 @@ namespace ClassroomScreenToolBox
 
         private void frmTimer_Load(object sender, EventArgs e)
         {
+            float dpiX, dpiY;
+            using (Graphics g = CreateGraphics())
+            {
+                dpiX = g.DpiX;
+                dpiY = g.DpiY;
+            }
+            // 根据DPI比例调整控件尺寸
+            float scaleFactor = dpiX / 96f; // 96 DPI 是标准DPI
+            foreach (Control control in Controls)
+            {
+                control.Width = (int)(control.Width * scaleFactor);
+                control.Height = (int)(control.Height * scaleFactor);
+                control.Left = (int)(control.Left * scaleFactor);
+                control.Top = (int)(control.Top * scaleFactor);
+                control.Font = new Font(control.Font.FontFamily, control.Font.SizeInPoints  * scaleFactor, control.Font.Style);
+                if (control is Sunny .UI .UITabControl tabControl)
+                {
+                    // 遍历TabControl中的所有TabPage
+                    foreach (TabPage tabPage in tabControl.TabPages)
+                    {
+                        foreach (Control tabcontrol in tabPage.Controls)
+                        {
+                            tabcontrol.Width = (int)(tabcontrol.Width * scaleFactor);
+                            tabcontrol.Height = (int)(tabcontrol.Height * scaleFactor);
+                            tabcontrol.Left = (int)(tabcontrol.Left * scaleFactor);
+                            tabcontrol.Top = (int)(tabcontrol.Top * scaleFactor);
+                            tabcontrol.Font = new Font(tabcontrol.Font.FontFamily, tabcontrol.Font.SizeInPoints * scaleFactor, tabcontrol.Font.Style);
+                            if(tabcontrol is UIDataGridView uidatagridview)
+                            {
+                                uidatagridview.RowTemplate.Height = (int)(uidatagridview.RowTemplate.Height * scaleFactor);
+                                foreach (DataGridViewColumn dataGridViewColumn in uidatagridview .Columns)
+                                {
+                                    dataGridViewColumn.Width = (int)(dataGridViewColumn.Width * scaleFactor);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            Height = (int)(Height * scaleFactor);
+            Width = (int)(Width * scaleFactor);
+            titleHeight = Convert.ToInt32(titleHeight * scaleFactor);
+            titleFont = new Font(titleFont.FontFamily, titleFont.Size * scaleFactor, titleFont.Style);
+            
+        }
 
+        private void SaveXlsx(object sender, EventArgs e)
+        {
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog() { Filter = "Excel files (*.xlsx)|*.xlsx", ValidateNames = true })
+            {
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    FileInfo fileInfo = new FileInfo(saveFileDialog.FileName);
+
+                    // 创建Excel包对象
+                    using (ExcelPackage package = new ExcelPackage(fileInfo))
+                    {
+                        // 添加一个新的Sheet
+                        ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Sheet1");
+
+                        // 写入列标题
+                        for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                        {
+                            worksheet.Cells[1, i + 1].Value = dataGridView1.Columns[i].HeaderText;
+                        }
+
+                        // 写入行数据
+                        for (int row = 0; row < dataGridView1.Rows.Count; row++)
+                        {
+                            for (int col = 0; col < dataGridView1.Columns.Count; col++)
+                            {
+                                worksheet.Cells[row + 2, col + 1].Value = dataGridView1.Rows[row].Cells[col].Value?.ToString() ?? "";
+                            }
+                        }
+
+                        // 自动调整列宽
+                        worksheet.Cells.AutoFitColumns();
+
+                        // 保存文件
+                        package.Save();
+                    }
+
+                    MessageBox.Show("导出成功！");
+                }
+            }
         }
     }
     public static class Extensions

@@ -1,5 +1,7 @@
 ﻿using IWshRuntimeLibrary;
+using Sunny.UI;
 using System;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -15,7 +17,37 @@ namespace ClassroomScreenToolBox
         private void ucExt1_Click(object sender, EventArgs e) => Close();
         private void Set_Load(object sender, EventArgs e)
         {
-            
+            float dpiX, dpiY;
+            using (Graphics g = CreateGraphics())
+            {
+                dpiX = g.DpiX;
+                dpiY = g.DpiY;
+            }
+            // 根据DPI比例调整控件尺寸
+            float scaleFactor = dpiX / 96f; // 96 DPI 是标准DPI
+            foreach (Control control in Controls)
+            {
+                control.Width = (int)(control.Width * scaleFactor);
+                control.Height = (int)(control.Height * scaleFactor);
+                control.Left = (int)(control.Left * scaleFactor);
+                control.Top = (int)(control.Top * scaleFactor);
+                control.Font = new Font(control.Font.FontFamily, control.Font.SizeInPoints  * scaleFactor, control.Font.Style);
+                if (control is Sunny.UI.UITabControl tabControl)
+                {
+                    // 遍历TabControl中的所有TabPage
+                    foreach (TabPage tabPage in tabControl.TabPages)
+                    {
+                        foreach (Control tabcontrol in tabPage.Controls)
+                        {
+                            tabcontrol.Width = (int)(tabcontrol.Width * scaleFactor);
+                            tabcontrol.Height = (int)(tabcontrol.Height * scaleFactor);
+                            tabcontrol.Left = (int)(tabcontrol.Left * scaleFactor);
+                            tabcontrol.Top = (int)(tabcontrol.Top * scaleFactor);
+                            tabcontrol.Font = new Font(tabcontrol.Font.FontFamily, tabcontrol.Font.SizeInPoints * scaleFactor, tabcontrol.Font.Style);
+                        }
+                    }
+                }
+            }
             if (Properties.Settings.Default.AutoStart == "False")
             {
                 ucRadioButton3.Checked = true;

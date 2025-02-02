@@ -70,7 +70,7 @@ namespace ClassroomScreenToolBox
                 control.Height = (int)(control.Height * scaleFactor);
                 control.Left = (int)(control.Left * scaleFactor);
                 control.Top = (int)(control.Top * scaleFactor);
-                control.Font = new Font(control.Font.FontFamily, control.Font.Size * scaleFactor, control.Font.Style);
+                control.Font = new Font(control.Font.FontFamily, control.Font.SizeInPoints  * scaleFactor, control.Font.Style);
             }
             Height = (int)(Height * scaleFactor);
             Width = (int)(Width * scaleFactor);
